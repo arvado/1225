@@ -99,11 +99,12 @@ export default function Home() {
             
             <p 
               className="text-sm text-white mb-12 max-w-3xl mx-auto leading-relaxed"
+              style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
             >
               <span className="text-xl md:text-2xl font-bold text-green-400 mb-8 block leading-tight" style={{ fontFamily: 'Helvetica, Arial, sans-serif', textShadow: '0 0 15px rgba(34, 197, 94, 0.3)' }}>
                 We design AI that helps you work smarter, achieve more, and focus on what you do best.
               </span>
-              <span className="text-sm text-gray-300">
+              <span className="text-sm text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                 We offer AI solutions built for any industry or niche—handling everything from customer calls and sales to specialized support and operations.
               </span>
             </p>
@@ -119,7 +120,7 @@ export default function Home() {
             
             {/* Main Bio */}
             <div className="max-w-3xl mx-auto text-center mb-16">
-              <p className="text-base text-gray-300 leading-relaxed">
+              <p className="text-base text-gray-300 leading-relaxed" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                 Our free consultations are a vital first step because we take the time to understand your business inside and out. We sit down with you to map out a clear blueprint, identifying challenges and uncovering opportunities for improvement. From there, we design tailored AI solutions—no matter how niche—that directly address your needs, streamline your processes, and help your business run smarter and more efficiently.
               </p>
             </div>
@@ -175,7 +176,7 @@ export default function Home() {
                     {step.icon}
                   </div>
                   <h3 className="text-lg font-bold text-white mb-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>{step.title}</h3>
-                  <p className="text-sm text-gray-300 leading-relaxed">{step.description}</p>
+                  <p className="text-sm text-gray-300 leading-relaxed" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>{step.description}</p>
                 </div>
               ))}
             </div>
@@ -188,7 +189,7 @@ export default function Home() {
             {/* Header */}
             <div className="text-center mb-12">
               <h2 className="text-2xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Experience Enterprise-Grade AI Technology</h2>
-              <p className="text-sm text-gray-300 max-w-3xl mx-auto">
+              <p className="text-sm text-gray-300 max-w-3xl mx-auto" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                 Discover how our AI solutions can transform your business operations and customer interactions
               </p>
             </div>
@@ -197,7 +198,7 @@ export default function Home() {
             <div className="bg-gray-800/60 backdrop-blur-sm border border-gray-700/50 rounded-lg p-8 mb-12">
               <div className="text-center">
                 <h3 className="text-xl font-bold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Ready to Experience the Future?</h3>
-                <p className="text-sm text-gray-300 mb-6 max-w-2xl mx-auto">
+                <p className="text-sm text-gray-300 mb-6 max-w-2xl mx-auto" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                   Our AI solutions are designed to handle the most complex business challenges. From customer service to sales optimization, we provide enterprise-grade technology that scales with your business.
                 </p>
                 
@@ -248,7 +249,7 @@ export default function Home() {
                   ].map((capability, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span className="text-sm text-gray-300">{capability}</span>
+                      <span className="text-sm text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>{capability}</span>
                     </div>
                   ))}
                 </div>
@@ -267,7 +268,7 @@ export default function Home() {
                   ].map((scenario, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span className="text-sm text-gray-300">{scenario}</span>
+                      <span className="text-sm text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>{scenario}</span>
                     </div>
                   ))}
                 </div>
@@ -287,7 +288,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="text-center">
               <span className="text-xl font-bold text-white font-mono">Arvado</span>
-              <p className="text-sm text-gray-400 mt-3">Transforming businesses with intelligent AI solutions</p>
+              <p className="text-sm text-gray-400 mt-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Transforming businesses with intelligent AI solutions</p>
             </div>
           </div>
         </footer>

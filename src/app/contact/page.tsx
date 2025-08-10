@@ -49,7 +49,7 @@ export default function ContactPage() {
           {/* Page Header */}
           <div className="text-center mb-20">
             <h1 className="text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Get in Touch</h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
               Ready to transform your business with AI? Let's start the conversation about how we can help you work smarter and achieve more.
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function ContactPage() {
             {/* Contact Information */}
             <div className="space-y-8">
               <h2 className="text-3xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Contact Information</h2>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-300 leading-relaxed" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                 Get in touch with our AI experts to discuss your business needs and discover how our solutions can drive your success.
               </p>
               
@@ -70,8 +70,8 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-400">Email</p>
-                    <p className="text-lg text-white">hello@arvao.ca</p>
+                    <p className="text-sm text-gray-400" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Email</p>
+                    <p className="text-lg text-white" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>hello@arvao.ca</p>
                   </div>
                 </div>
                 
@@ -82,8 +82,8 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-400">Phone</p>
-                    <p className="text-lg text-white">+1 (555) 123-4567</p>
+                    <p className="text-sm text-gray-400" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Phone</p>
+                    <p className="text-lg text-white" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>+1 (555) 123-4567</p>
                   </div>
                 </div>
 
@@ -93,26 +93,26 @@ export default function ContactPage() {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span className="text-gray-300">Free 30-minute consultation</span>
+                      <span className="text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Free 30-minute consultation</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span className="text-gray-300">Customized AI solution assessment</span>
+                      <span className="text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Customized AI solution assessment</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span className="text-gray-300">Implementation roadmap</span>
+                      <span className="text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Implementation roadmap</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span className="text-gray-300">ROI analysis</span>
+                      <span className="text-gray-300" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>ROI analysis</span>
                     </div>
                   </div>
                 </div>
 
                 {/* Additional Contact Methods */}
                 <div className="bg-gray-800/40 rounded-lg p-6">
-                  <h3 className="text-lg font-semibold text-white mb-4">Other Ways to Connect</h3>
+                  <h3 className="text-lg font-semibold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Other Ways to Connect</h3>
                   <div className="space-y-4">
                     <a 
                       href="/consultation" 
@@ -133,8 +133,8 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="bg-gray-800/60 backdrop-blur-sm border border-gray-700/50 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-white mb-6">Start Your Journey</h2>
-              <p className="text-gray-300 mb-8">
+              <h2 className="text-3xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Start Your Journey</h2>
+              <p className="text-gray-300 mb-8" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                 Tell us about your business needs and we'll provide a customized AI solution consultation.
               </p>
               

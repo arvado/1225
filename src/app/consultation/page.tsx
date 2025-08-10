@@ -80,8 +80,8 @@ export default function ConsultationPage() {
         <div className="relative z-10 min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="mb-6">
-              <h1 className="text-5xl font-bold text-green-400 mb-3" style={{ fontFamily: 'OCR-A, monospace' }}>THANK YOU!</h1>
-              <p className="text-xl text-white mb-4" style={{ fontFamily: 'OCR-A, monospace' }}>WE WILL GET BACK TO YOU AS SOON AS POSSIBLE</p>
+              <h1 className="text-5xl font-bold text-green-400 mb-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>THANK YOU!</h1>
+              <p className="text-xl text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>WE WILL GET BACK TO YOU AS SOON AS POSSIBLE</p>
             </div>
             
             <div className="mb-8">
@@ -100,7 +100,7 @@ export default function ConsultationPage() {
             <a 
               href="/" 
               className="inline-flex items-center px-6 py-3 text-green-400 font-semibold rounded-lg hover:text-white transition-colors duration-300 hover:bg-green-400/10"
-              style={{ fontFamily: 'OCR-A, monospace' }}
+              style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -163,7 +163,7 @@ export default function ConsultationPage() {
               <a 
                 href="/" 
                 className="inline-flex items-center px-3 py-2 bg-transparent text-green-400 font-semibold rounded-lg hover:bg-green-600/10 hover:text-white transition-colors duration-300 border border-green-500/30 text-sm"
-                style={{ fontFamily: 'OCR-A, monospace' }}
+                style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
               >
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -175,7 +175,7 @@ export default function ConsultationPage() {
             {/* Page Header */}
             <div className="text-center mb-10">
               <h1 className="text-3xl font-bold text-white mb-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>FREE AI SOLUTION CONSULTATION</h1>
-              <p className="text-base text-gray-300 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'OCR-A, monospace' }}>
+              <p className="text-base text-gray-300 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                 READY TO TRANSFORM YOUR BUSINESS WITH AI? LET'S START THE CONVERSATION ABOUT HOW WE CAN HELP YOU WORK SMARTER AND ACHIEVE MORE.
               </p>
             </div>
@@ -184,8 +184,8 @@ export default function ConsultationPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Contact Information */}
               <div className="space-y-4">
-                <h2 className="text-xl font-bold text-white mb-3" style={{ fontFamily: 'OCR-A, monospace' }}>CONTACT INFORMATION</h2>
-                <p className="text-sm text-gray-300 leading-relaxed" style={{ fontFamily: 'OCR-A, monospace' }}>
+                <h2 className="text-xl font-bold text-white mb-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>CONTACT INFORMATION</h2>
+                <p className="text-sm text-gray-300 leading-relaxed" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
                   GET IN TOUCH WITH OUR AI EXPERTS TO DISCUSS YOUR BUSINESS NEEDS AND DISCOVER HOW OUR SOLUTIONS CAN DRIVE YOUR SUCCESS.
                 </p>
                 
@@ -197,8 +197,8 @@ export default function ConsultationPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs text-gray-400" style={{ fontFamily: 'OCR-A, monospace' }}>EMAIL</p>
-                      <p className="text-sm text-white" style={{ fontFamily: 'OCR-A, monospace' }}>ARVADO@GMAIL.COM</p>
+                      <p className="text-xs text-gray-400" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>EMAIL</p>
+                      <p className="text-sm text-white" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>ARVADO@GMAIL.COM</p>
                     </div>
                   </div>
                   
@@ -209,8 +209,8 @@ export default function ConsultationPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs text-gray-400" style={{ fontFamily: 'OCR-A, monospace' }}>PHONE</p>
-                      <p className="text-sm text-white" style={{ fontFamily: 'OCR-A, monospace' }}>+1 (555) 123-4567</p>
+                      <p className="text-xs text-gray-400" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>PHONE</p>
+                      <p className="text-sm text-white" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>+1 (555) 123-4567</p>
                     </div>
                   </div>
                   
@@ -220,11 +220,11 @@ export default function ConsultationPage() {
 
               {/* Consultation Form */}
               <div className="bg-gray-800/60 backdrop-blur-sm border border-gray-700/50 rounded-lg p-5">
-                <h2 className="text-xl font-bold text-white mb-4" style={{ fontFamily: 'OCR-A, monospace' }}>SCHEDULE YOUR CONSULTATION</h2>
+                <h2 className="text-xl font-bold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>SCHEDULE YOUR CONSULTATION</h2>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'OCR-A, monospace' }}>FIRST NAME *</label>
+                      <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>FIRST NAME *</label>
                       <input 
                         type="text" 
                         name="firstName"
@@ -233,12 +233,12 @@ export default function ConsultationPage() {
                         required
                         className="w-full px-3 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
                         placeholder="Enter your first name"
-                        style={{ fontFamily: 'OCR-A, monospace' }}
+                        style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                       />
                     </div>
                     
                     <div>
-                      <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'OCR-A, monospace' }}>LAST NAME *</label>
+                      <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>LAST NAME *</label>
                       <input 
                         type="text" 
                         name="lastName"
@@ -247,13 +247,13 @@ export default function ConsultationPage() {
                         required
                         className="w-full px-3 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
                         placeholder="Enter your last name"
-                        style={{ fontFamily: 'OCR-A, monospace' }}
+                        style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                       />
                     </div>
                   </div>
                   
                   <div>
-                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'OCR-A, monospace' }}>COMPANY EMAIL *</label>
+                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>COMPANY EMAIL *</label>
                     <input 
                       type="email" 
                       name="email"
@@ -262,12 +262,12 @@ export default function ConsultationPage() {
                       required
                       className="w-full px-3 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
                       placeholder="your@company.com"
-                      style={{ fontFamily: 'OCR-A, monospace' }}
+                      style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'OCR-A, monospace' }}>COMPANY NAME *</label>
+                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>COMPANY NAME *</label>
                     <input 
                       type="text" 
                       name="companyName"
@@ -276,19 +276,19 @@ export default function ConsultationPage() {
                       required
                       className="w-full px-3 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
                       placeholder="Your Company Name"
-                      style={{ fontFamily: 'OCR-A, monospace' }}
+                      style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                     />
                   </div>
                   
                   <div>
-                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'OCR-A, monospace' }}>BUSINESS NEEDS *</label>
+                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>BUSINESS NEEDS *</label>
                     <select 
                       name="businessNeeds"
                       value={formData.businessNeeds}
                       onChange={handleInputChange}
                       required
                       className="w-full px-3 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
-                      style={{ fontFamily: 'OCR-A, monospace' }}
+                      style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                     >
                       <option value="">Select your primary need</option>
                       <option value="customer-service">Customer Service Automation</option>
@@ -303,7 +303,7 @@ export default function ConsultationPage() {
 
                   
                   <div>
-                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'OCR-A, monospace' }}>ADDITIONAL DETAILS</label>
+                    <label className="block text-xs font-medium text-gray-300 mb-1" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>ADDITIONAL DETAILS</label>
                     <textarea 
                       name="additionalDetails"
                       value={formData.additionalDetails}
@@ -311,7 +311,7 @@ export default function ConsultationPage() {
                       rows={3}
                       className="w-full px-3 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none text-sm"
                       placeholder="Tell us more about your specific requirements, challenges, and goals..."
-                      style={{ fontFamily: 'OCR-A, monospace' }}
+                      style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                     ></textarea>
                   </div>
                   
@@ -319,7 +319,7 @@ export default function ConsultationPage() {
                     type="submit" 
                     disabled={isSubmitting}
                     className="w-full px-6 py-3 bg-transparent border-2 border-green-400 text-green-400 font-semibold rounded-lg hover:bg-green-400/10 hover:text-white transition-all duration-300 transform hover:scale-105 mb-4 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
-                    style={{ fontFamily: 'OCR-A, monospace' }}
+                    style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
                   >
                     {isSubmitting ? 'SUBMITTING...' : 'SCHEDULE FREE CONSULTATION'}
                   </button>
@@ -336,8 +336,8 @@ export default function ConsultationPage() {
       <footer className="bg-gray-800/50 border-t border-gray-700/50 py-10">
         <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
           <div className="text-center">
-            <span className="text-xl font-bold text-white font-mono" style={{ fontFamily: 'OCR-A, monospace' }}>ARVADO</span>
-            <p className="text-gray-400 mt-3 text-sm" style={{ fontFamily: 'OCR-A, monospace' }}>TRANSFORMING BUSINESSES WITH INTELLIGENT AI SOLUTIONS</p>
+            <span className="text-xl font-bold text-white font-mono" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>ARVADO</span>
+            <p className="text-gray-400 mt-3 text-sm" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>TRANSFORMING BUSINESSES WITH INTELLIGENT AI SOLUTIONS</p>
           </div>
         </div>
       </footer>
