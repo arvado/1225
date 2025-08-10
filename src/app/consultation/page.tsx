@@ -38,7 +38,7 @@ export default function ConsultationPage() {
 
 
         {/* OCR-A Code Rain Background */}
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="fixed inset-0 pointer-events-none">
           <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
             <div className="relative h-full">
               {Array.from({ length: 15 }, (_, column) => (
@@ -46,9 +46,9 @@ export default function ConsultationPage() {
                   key={column}
                   className="absolute top-0 text-green-400 text-xs opacity-20"
                   style={{ 
-                    left: `${(column * 6.67) + Math.random() * 3}%`,
-                    animationDelay: `${Math.random() * 5}s`,
-                    animationDuration: `${8 + Math.random() * 8}s`,
+                    left: `${(column * 6.67) + 1}%`,
+                    animationDelay: `${column * 0.3}s`,
+                    animationDuration: `${10 + column * 0.2}s`,
                     fontFamily: 'OCR-A, monospace',
                     animation: 'fall 15s linear infinite'
                   }}
@@ -61,8 +61,8 @@ export default function ConsultationPage() {
                         key={row} 
                         className="mb-3 opacity-60"
                         style={{ 
-                          animationDelay: `${Math.random() * 3}s`,
-                          fontSize: `${8 + Math.random() * 8}px`,
+                          animationDelay: `${row * 0.1}s`,
+                          fontSize: `${8 + (row % 6)}px`,
                           animation: 'fall 12s linear infinite'
                         }}
                       >
@@ -116,7 +116,7 @@ export default function ConsultationPage() {
   return (
     <div className="min-h-screen bg-gray-900 relative overflow-hidden">
             {/* OCR-A Code Rain Background */}
-      <div className="absolute inset-0 pointer-events-none">
+      <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
           <div className="relative h-full">
             {Array.from({ length: 15 }, (_, column) => (
@@ -124,9 +124,9 @@ export default function ConsultationPage() {
                 key={column}
                 className="absolute top-0 text-green-400 text-xs opacity-20"
                 style={{ 
-                  left: `${(column * 6.67) + Math.random() * 3}%`,
-                  animationDelay: `${Math.random() * 5}s`,
-                  animationDuration: `${8 + Math.random() * 8}s`,
+                  left: `${(column * 6.67) + 1}%`,
+                  animationDelay: `${column * 0.3}s`,
+                  animationDuration: `${10 + column * 0.2}s`,
                   fontFamily: 'OCR-A, monospace',
                   animation: 'fall 15s linear infinite'
                 }}
@@ -139,8 +139,8 @@ export default function ConsultationPage() {
                       key={row} 
                       className="mb-3 opacity-60"
                       style={{ 
-                        animationDelay: `${Math.random() * 3}s`,
-                        fontSize: `${8 + Math.random() * 8}px`,
+                        animationDelay: `${row * 0.1}s`,
+                        fontSize: `${8 + (row % 6)}px`,
                         animation: 'fall 12s linear infinite'
                         }}
                       >
