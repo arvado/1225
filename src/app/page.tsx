@@ -98,7 +98,7 @@ export default function Home() {
             <p 
               className="text-sm text-white mb-12 max-w-3xl mx-auto leading-relaxed"
             >
-              <span className="text-xl md:text-2xl font-bold text-green-400 mb-8 block leading-tight" style={{ textShadow: '0 0 15px rgba(34, 197, 94, 0.3)' }}>
+              <span className="text-xl md:text-2xl font-bold text-green-400 mb-8 block leading-tight" style={{ fontFamily: 'Helvetica, Arial, sans-serif', textShadow: '0 0 15px rgba(34, 197, 94, 0.3)' }}>
                 We design AI that helps you work smarter, achieve more, and focus on what you do best.
               </span>
               <span className="text-sm text-gray-300">
@@ -113,7 +113,7 @@ export default function Home() {
         {/* Free Consultations Section */}
         <section id="features" className="py-20 px-6 sm:px-8 lg:px-12 bg-gray-800/20">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-medium text-center text-white mb-12">Free Consultations</h2>
+            <h2 className="text-3xl font-medium text-center text-white mb-12" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Free Consultations</h2>
             
             {/* Main Bio */}
             <div className="max-w-3xl mx-auto text-center mb-16">
@@ -172,7 +172,7 @@ export default function Home() {
                   <div className="w-16 h-16 bg-gradient-to-r from-green-600/20 to-emerald-600/20 rounded-lg flex items-center justify-center mx-auto mb-4 border border-green-500/30">
                     {step.icon}
                   </div>
-                  <h3 className="text-lg font-bold text-white mb-3">{step.title}</h3>
+                  <h3 className="text-lg font-bold text-white mb-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>{step.title}</h3>
                   <p className="text-sm text-gray-300 leading-relaxed">{step.description}</p>
                 </div>
               ))}
@@ -185,7 +185,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             {/* Header */}
             <div className="text-center mb-12">
-              <h2 className="text-2xl font-bold text-white mb-6">Experience Enterprise-Grade AI Technology</h2>
+              <h2 className="text-2xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Experience Enterprise-Grade AI Technology</h2>
               <p className="text-sm text-gray-300 max-w-3xl mx-auto">
                 Discover how our AI solutions can transform your business operations and customer interactions
               </p>
@@ -194,7 +194,7 @@ export default function Home() {
             {/* Combined AI Technology & Demo Line Section */}
             <div className="bg-gray-800/60 backdrop-blur-sm border border-gray-700/50 rounded-lg p-8 mb-12">
               <div className="text-center">
-                <h3 className="text-xl font-bold text-white mb-4">Ready to Experience the Future?</h3>
+                <h3 className="text-xl font-bold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Ready to Experience the Future?</h3>
                 <p className="text-sm text-gray-300 mb-6 max-w-2xl mx-auto">
                   Our AI solutions are designed to handle the most complex business challenges. From customer service to sales optimization, we provide enterprise-grade technology that scales with your business.
                 </p>
@@ -208,7 +208,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="text-lg font-bold text-white">Demo Line</h4>
+                      <h4 className="text-lg font-bold text-white" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Demo Line</h4>
                       <div className="text-xl md:text-2xl font-mono font-bold text-green-400 tracking-wider">
                         +1 (555) 123-4567
                       </div>
@@ -234,7 +234,7 @@ export default function Home() {
             {/* Key Capabilities */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               <div className="space-y-4">
-                <h3 className="text-lg font-bold text-white mb-4">What Our AI Can Do</h3>
+                <h3 className="text-lg font-bold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>What Our AI Can Do</h3>
                 <div className="space-y-3">
                   {[
                     'Handle complex customer inquiries',
@@ -253,7 +253,7 @@ export default function Home() {
               </div>
 
               <div className="space-y-4">
-                <h3 className="text-lg font-bold text-white mb-4">Testing Scenarios</h3>
+                <h3 className="text-lg font-bold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Testing Scenarios</h3>
                 <div className="space-y-3">
                   {[
                     'Customer service inquiries',

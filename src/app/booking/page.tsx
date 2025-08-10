@@ -21,7 +21,7 @@ export default function BookingPage() {
           
           {/* Page Header */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold text-white mb-6">Book Your Consultation</h1>
+            <h1 className="text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Book Your Consultation</h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
               Choose a convenient time for your free AI solution consultation. Our experts are available to discuss your business needs.
             </p>
@@ -32,7 +32,7 @@ export default function BookingPage() {
             <form className="space-y-8">
               {/* Date Selection */}
               <div>
-                <label className="block text-lg font-semibold text-white mb-4">Select Date</label>
+                <label className="block text-lg font-semibold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Select Date</label>
                 <div className="grid grid-cols-7 gap-3">
                   {Array.from({ length: 14 }, (_, i) => {
                     // Use a fixed base date to prevent hydration issues
@@ -59,7 +59,7 @@ export default function BookingPage() {
 
               {/* Time Selection */}
               <div>
-                <label className="block text-lg font-semibold text-white mb-4">Select Time</label>
+                <label className="block text-lg font-semibold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Select Time</label>
                 <div className="grid grid-cols-4 gap-3">
                   {[
                     '9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM',
@@ -79,7 +79,7 @@ export default function BookingPage() {
 
               {/* Consultation Type */}
               <div>
-                <label className="block text-lg font-semibold text-white mb-4">Consultation Type</label>
+                <label className="block text-lg font-semibold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Consultation Type</label>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-3 p-4 bg-gray-700/50 border border-gray-600 rounded-lg">
                     <input type="radio" name="consultationType" value="video" className="w-4 h-4 text-green-600" defaultChecked />

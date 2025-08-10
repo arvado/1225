@@ -170,7 +170,7 @@ export default function ConsultationPage() {
             
             {/* Page Header */}
             <div className="text-center mb-10">
-              <h1 className="text-3xl font-bold text-white mb-3" style={{ fontFamily: 'OCR-A, monospace' }}>FREE AI SOLUTION CONSULTATION</h1>
+              <h1 className="text-3xl font-bold text-white mb-3" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>FREE AI SOLUTION CONSULTATION</h1>
               <p className="text-base text-gray-300 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'OCR-A, monospace' }}>
                 READY TO TRANSFORM YOUR BUSINESS WITH AI? LET'S START THE CONVERSATION ABOUT HOW WE CAN HELP YOU WORK SMARTER AND ACHIEVE MORE.
               </p>

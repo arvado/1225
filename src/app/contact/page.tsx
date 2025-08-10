@@ -48,7 +48,7 @@ export default function ContactPage() {
           
           {/* Page Header */}
           <div className="text-center mb-20">
-            <h1 className="text-5xl font-bold text-white mb-6">Get in Touch</h1>
+            <h1 className="text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Get in Touch</h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Ready to transform your business with AI? Let's start the conversation about how we can help you work smarter and achieve more.
             </p>
@@ -57,7 +57,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Contact Information */}
             <div className="space-y-8">
-              <h2 className="text-3xl font-bold text-white mb-6">Contact Information</h2>
+              <h2 className="text-3xl font-bold text-white mb-6" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Contact Information</h2>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Get in touch with our AI experts to discuss your business needs and discover how our solutions can drive your success.
               </p>
@@ -89,7 +89,7 @@ export default function ContactPage() {
 
                 {/* What to Expect */}
                 <div className="bg-gray-800/40 rounded-lg p-6 mt-8">
-                  <h3 className="text-lg font-semibold text-white mb-4">What to Expect</h3>
+                  <h3 className="text-lg font-semibold text-white mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>What to Expect</h3>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
