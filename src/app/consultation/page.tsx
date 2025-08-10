@@ -41,27 +41,29 @@ export default function ConsultationPage() {
         <div className="fixed inset-0 pointer-events-none">
           <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
             <div className="relative h-full">
-              {Array.from({ length: 12 }, (_, column) => (
+              {Array.from({ length: 15 }, (_, column) => (
                 <div 
                   key={column}
-                  className="absolute top-0 text-green-400 text-xs opacity-20 animate-fall"
+                  className="absolute top-0 text-green-400 text-xs opacity-20"
                   style={{ 
-                    left: `${(column * 8.33) + 1}%`,
-                    animationDelay: `${column * 0.4}s`,
-                    animationDuration: `${10 + column * 0.3}s`,
-                    fontFamily: 'OCR-A, monospace'
+                    left: `${(column * 6.67) + Math.random() * 3}%`,
+                    animationDelay: `${Math.random() * 5}s`,
+                    animationDuration: `${8 + Math.random() * 8}s`,
+                    fontFamily: 'OCR-A, monospace',
+                    animation: 'fall 15s linear infinite'
                   }}
                 >
-                  {Array.from({ length: 20 }, (_, row) => {
+                  {Array.from({ length: 25 }, (_, row) => {
                     const chars = '01‰%&permil;&percnt;&#8240;&#37;';
                     const charIndex = (column + row) % chars.length;
                     return (
                       <div 
                         key={row} 
-                        className="mb-2 opacity-50"
+                        className="mb-3 opacity-60"
                         style={{ 
-                          animationDelay: `${row * 0.15}s`,
-                          fontSize: `${10 + (row % 6)}px`
+                          animationDelay: `${Math.random() * 3}s`,
+                          fontSize: `${8 + Math.random() * 8}px`,
+                          animation: 'fall 12s linear infinite'
                         }}
                       >
                         {chars[charIndex]}
@@ -117,27 +119,29 @@ export default function ConsultationPage() {
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
           <div className="relative h-full">
-            {Array.from({ length: 12 }, (_, column) => (
+            {Array.from({ length: 15 }, (_, column) => (
               <div 
                 key={column}
-                className="absolute top-0 text-green-400 text-xs opacity-20 animate-fall"
+                className="absolute top-0 text-green-400 text-xs opacity-20"
                 style={{ 
-                  left: `${(column * 8.33) + 1}%`,
-                  animationDelay: `${column * 0.4}s`,
-                  animationDuration: `${10 + column * 0.3}s`,
-                  fontFamily: 'OCR-A, monospace'
+                  left: `${(column * 6.67) + Math.random() * 3}%`,
+                  animationDelay: `${Math.random() * 5}s`,
+                  animationDuration: `${8 + Math.random() * 8}s`,
+                  fontFamily: 'OCR-A, monospace',
+                  animation: 'fall 15s linear infinite'
                 }}
               >
-                {Array.from({ length: 20 }, (_, row) => {
+                {Array.from({ length: 25 }, (_, row) => {
                   const chars = '01‰%&permil;&percnt;&#8240;&#37;';
                   const charIndex = (column + row) % chars.length;
                   return (
                     <div 
                       key={row} 
-                      className="mb-2 opacity-50"
+                      className="mb-3 opacity-60"
                       style={{ 
-                        animationDelay: `${row * 0.15}s`,
-                        fontSize: `${10 + (row % 6)}px`
+                        animationDelay: `${Math.random() * 3}s`,
+                        fontSize: `${8 + Math.random() * 8}px`,
+                        animation: 'fall 12s linear infinite'
                       }}
                     >
                       {chars[charIndex]}
