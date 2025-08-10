@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
       {/* Floating Tech Elements - OCR-A Code Rain */}
-      <div className="fixed inset-0 pointer-events-none">
+      <div className="absolute inset-0 pointer-events-none">
         {/* OCR-A Code Rain Effect */}
         <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
           <div className="relative h-full">

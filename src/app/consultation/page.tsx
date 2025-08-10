@@ -38,7 +38,7 @@ export default function ConsultationPage() {
 
 
         {/* OCR-A Code Rain Background */}
-        <div className="fixed inset-0 pointer-events-none">
+        <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
             <div className="relative h-full">
               {Array.from({ length: 15 }, (_, column) => (
@@ -115,8 +115,8 @@ export default function ConsultationPage() {
 
   return (
     <div className="min-h-screen bg-gray-900 relative overflow-hidden">
-      {/* OCR-A Code Rain Background */}
-      <div className="fixed inset-0 pointer-events-none">
+            {/* OCR-A Code Rain Background */}
+      <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 right-0 h-screen overflow-hidden pointer-events-none">
           <div className="relative h-full">
             {Array.from({ length: 15 }, (_, column) => (
@@ -142,8 +142,8 @@ export default function ConsultationPage() {
                         animationDelay: `${Math.random() * 3}s`,
                         fontSize: `${8 + Math.random() * 8}px`,
                         animation: 'fall 12s linear infinite'
-                      }}
-                    >
+                        }}
+                      >
                       {chars[charIndex]}
                     </div>
                   );
